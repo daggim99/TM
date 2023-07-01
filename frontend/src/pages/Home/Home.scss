@@ -1,5 +1,5 @@
 .home {
-  background-color: #1a120b;
+  background-color: #9bc400;
   min-height: 100vh;
 
   & nav {
@@ -25,6 +25,7 @@
 }
 
 .hero {
+  margin-top: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +36,7 @@
   & > * {
     color: #fff;
     margin-bottom: 2rem;
+    text-align: center;
   }
   & > h2 span {
     display: block;

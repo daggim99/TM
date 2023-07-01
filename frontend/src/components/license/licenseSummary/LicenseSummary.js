@@ -40,14 +40,9 @@ const LicenseSummary = ({ licenses }) => {
 
   return (
     <div className="license-summary">
-      <h3 className="--mt">Dashboard Stats</h3>
+      <h3 className="--mt">Dashboard</h3>
       <div className="info-summary">
-        <InfoBox
-          icon={licenseIcon}
-          title={"Total Licenses"}
-          count={licenses.length}
-          bgColor="card1"
-        />
+        <InfoBox title={"Licenses"} count={licenses.length} bgColor="card1" />
         {/* <InfoBox
           icon={earningIcon}
           title={"Total Store Value"}

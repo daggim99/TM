@@ -1,20 +1,20 @@
-import { FaTh, FaRegChartBar, FaCommentAlt } from "react-icons/fa";
-import { BiImageAdd } from "react-icons/bi";
+// import { FaTh, FaRegChartBar, FaCommentAlt } from "react-icons/fa";
+// import { BiImageAdd } from "react-icons/bi";
 
 const menu = [
   {
     title: "Dashboard",
-    icon: <FaTh />,
+    // icon: <FaTh />,
     path: "/dashboard",
   },
   {
     title: "Add License",
-    icon: <BiImageAdd />,
+    // icon: <BiImageAdd />,
     path: "/add-license",
   },
   {
     title: "Account",
-    icon: <FaRegChartBar />,
+    // icon: <FaRegChartBar />,
     childrens: [
       {
         title: "Profile",
@@ -26,11 +26,11 @@ const menu = [
       },
     ],
   },
-  {
-    title: "Report Bug",
-    icon: <FaCommentAlt />,
-    path: "/contact-us",
-  },
+  // {
+  //   title: "Report Bug",
+  //   icon: <FaCommentAlt />,
+  //   path: "/contact-us",
+  // },
 ];
 
 export default menu;

@@ -112,7 +112,10 @@ const Register = () => {
 
           <span className={styles.register}>
             <Link to="/">Home</Link>
-            <p> &nbsp; Already have an account? &nbsp;</p>
+            <p style={{ color: "white", textAlign: "left" }}>
+              {" "}
+              &nbsp; Already A Member? &nbsp;
+            </p>
             <Link to="/login">Login</Link>
           </span>
         </div>

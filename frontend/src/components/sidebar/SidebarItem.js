@@ -17,7 +17,7 @@ const SidebarItem = ({ item, isOpen }) => {
       >
         <div className="sidebar-title">
           <span>
-            {item.icon && <div className="icon">{item.icon}</div>}
+            {/* {item.icon && <div className="icon">{item.icon}</div>} */}
             {isOpen && <div>{item.title}</div>}
           </span>
           <MdKeyboardArrowRight
@@ -34,7 +34,7 @@ const SidebarItem = ({ item, isOpen }) => {
                   <div className="sidebar-item">
                     <div className="sidebar-title">
                       <span>
-                        {child.icon && <div className="icon">{child.icon}</div>}
+                        {/* {child.icon && <div className="icon">{child.icon}</div>} */}
                         {isOpen && <div>{child.title}</div>}
                       </span>
                     </div>
@@ -52,7 +52,7 @@ const SidebarItem = ({ item, isOpen }) => {
         <div className="sidebar-item s-parent">
           <div className="sidebar-title">
             <span>
-              {item.icon && <div className="icon">{item.icon}</div>}
+              {/* {item.icon && <div className="icon">{item.icon}</div>} */}
               {isOpen && <div>{item.title}</div>}
             </span>
           </div>

@@ -3,6 +3,7 @@
   .info-summary {
     display: flex;
     flex-wrap: wrap;
+    color: #fff;
   }
 }
 
@@ -10,11 +11,11 @@
   border: 1px solid #ccc;
   // border-bottom: 3px solid var(--light-blue);
   padding: 5px;
-  background-color: #f5f6fa;
+  background-color: #1d1e21;
 }
 
 .card1 {
-  background-color: #b624ff;
+  background-color: #ff6f61;
 }
 .card2 {
   background-color: #32963d;

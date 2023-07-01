@@ -16,10 +16,10 @@ const Header = () => {
   };
 
   return (
-    <div className="--pad header">
+    <div style={{ backgroundColor: "#133337" }} className="--pad header">
       <div className="--flex-between">
         <h3>
-          <span className="--fw-thin">Welcome, </span>
+          <span className="--fw-thin">Hello There, </span>
           <span className="--color-danger">{name}</span>
         </h3>
         <button onClick={logout} className="--btn --btn-danger">

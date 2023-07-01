@@ -26,7 +26,7 @@ const Dashboard = () => {
   }, [isLoggedIn, isError, message, dispatch]);
 
   return (
-    <div>
+    <div style={{ backgroundColor: "#0B1E21", color: "white" }}>
       <LicenseSummary licenses={licenses} />
       <LicenseList licenses={licenses} isLoading={isLoading} />
     </div>

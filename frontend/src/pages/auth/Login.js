@@ -62,7 +62,7 @@ const Login = () => {
           <div className="--flex-center">
             <BiLogIn size={35} color="#999" />
           </div>
-          <h2>Login</h2>
+          <h2>Have An Account?</h2>
 
           <form onSubmit={login}>
             <input
@@ -82,15 +82,24 @@ const Login = () => {
               onChange={handleInputChange}
             />
             <button type="submit" className="--btn --btn-primary --btn-block">
-              Login
+              Continue
             </button>
           </form>
-          <Link to="/forgot">Forgot Password</Link>
+          <Link className="--btn --btn-primary --btn-block" to="/forgot">
+            Don't Remember Password?
+          </Link>
 
           <span className={styles.register}>
-            <Link to="/">Home</Link>
-            <p> &nbsp; Don't have an account? &nbsp;</p>
-            <Link to="/register">Register</Link>
+            <Link className="--btn --btn-primary --btn-block" to="/">
+              Home
+            </Link>
+            <p style={{ color: "white", textAlign: "left" }}>
+              {" "}
+              &nbsp; Don't have an account yet? &nbsp;
+            </p>
+            <Link className="--btn --btn-primary --btn-block" to="/register">
+              Sign Up Now!
+            </Link>
           </span>
         </div>
       </Card>

@@ -1,8 +1,8 @@
 import React from "react";
-import { AiOutlineSketch } from "react-icons/ai";
+import { AiOutlineReconciliation } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./Home.scss";
-import heroImg from "../../assets/inv-img.png";
+import heroImg from "../../assets/minoft.jpg";
 import { ShowOnLogin, ShowOnLogout } from "../../components/protect/HiddenLink";
 
 const Home = () => {
@@ -10,19 +10,19 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <AiOutlineSketch size={35} />
+          <AiOutlineReconciliation size={65} />
         </div>
 
         <ul className="home-links">
           <ShowOnLogout>
             <li>
-              <Link to="/register">Register</Link>
+              <Link to="/register">Sign Up</Link>
             </li>
           </ShowOnLogout>
           <ShowOnLogout>
             <li>
               <button className="--btn --btn-primary">
-                <Link to="/login">Login</Link>
+                <Link to="/login">Have an Account?</Link>
               </button>
             </li>
           </ShowOnLogout>
@@ -43,31 +43,12 @@ const Home = () => {
             Trade License Management System for Akaki Kality sub-city Trade and
             Market Development Office
           </p>
-          <div className="hero-buttons">
-            <button className="--btn --btn-secondary">
-              <Link to="/dashboard">Get Started</Link>
-            </button>
-          </div>
-          <div className="--flex-start">
-            <NumberText num="14K" text="Trade Owners" />
-            <NumberText num="23K" text="License Users" />
-            <NumberText num="500+" text="Partners" />
-          </div>
         </div>
 
         <div className="hero-image">
           <img src={heroImg} alt="TMS" />
         </div>
       </section>
-    </div>
-  );
-};
-
-const NumberText = ({ num, text }) => {
-  return (
-    <div className="--mr">
-      <h3 className="--color-white">{num}</h3>
-      <p className="--color-white">{text}</p>
     </div>
   );
 };
