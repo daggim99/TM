@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["https://tms-mm9y.onrender.com"],
+    origin: ["http://localhost"],
     credentials: true,
   })
 );

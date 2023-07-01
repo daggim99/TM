@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-export const BACKEND_URL = "https://tms-mm9y.onrender.com:7000";
+export const BACKEND_URL = "http://localhost:4000";
 
 export const validateEmail = (email) => {
   return email.match(
