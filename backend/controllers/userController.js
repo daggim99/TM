@@ -254,7 +254,7 @@ const forgotPassword = asyncHandler(async (req, res) => {
   }).save();
 
   // Construct Reset Url
-  const resetUrl = `https://tms-mm9y.onrender.com/resetpassword/${resetToken}`;
+  const resetUrl = `https://tms-mm9y.onrender.com:7000/resetpassword/${resetToken}`;
 
   // Reset Email
   const message = `
