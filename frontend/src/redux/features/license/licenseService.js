@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:4000";
+const BACKEND_URL =
+  "https://tms-mm9y.onrender.com" || process.env.REACT_APP_BACKEND_URL;
 
 const API_URL = `${BACKEND_URL}/api/licenses/`;
 
